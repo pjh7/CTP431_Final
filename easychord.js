@@ -46,7 +46,7 @@ function initializeAudioContext() {
 
   // 리버브 효과를 위한 ConvolverNode 초기화
   reverbNode = audioContext.createConvolver();
-  const reverbUrl = '4a_hats_cloaks_visitors.wav'; // 리버브용 인퍼런스 파일 경로
+  const reverbUrl = 'https://github.com/pjh7/CTP431_Final/blob/main/4a_hats_cloaks_visitors.wav'; // 리버브용 인퍼런스 파일 경로
   loadSample(reverbUrl, reverbNode);
 
   // 리버브 노드를 연결
